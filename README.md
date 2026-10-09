@@ -79,7 +79,7 @@ Skin Lesion
     └── Malignant
 ```
 
-The report notes substantial class imbalance in the original data, with **Melanocytic nevi containing 3,527 images**, while Dermatofibroma and Vascular lesions contained only **61** and **71** respectively. fileciteturn0file0L97-L107
+The report notes substantial class imbalance in the original data, with **Melanocytic nevi containing 3,527 images**, while Dermatofibroma and Vascular lesions contained only **61** and **71** respectively.
 
 ---
 
@@ -99,7 +99,7 @@ The preprocessing pipeline included:
 - Normalizing pixel values from `0–255` to `0–1`
 - Splitting the data into **75% training / 25% testing**
 
-The class-balancing step resampled each lesion category to **250 observations** before combining them into the balanced dataset. fileciteturn0file0L109-L125
+The class-balancing step resampled each lesion category to **250 observations** before combining them into the balanced dataset.
 
 ---
 
@@ -116,7 +116,7 @@ Batch Size : 16
 Epochs     : 50
 ```
 
-The selected network contained **7 dense layers**. fileciteturn0file0L170-L188
+The selected network contained **7 dense layers**. 
 
 ### Tasks
 
@@ -139,7 +139,7 @@ The pre-trained architecture was fine-tuned using the project dataset for both:
 - Seven-class lesion classification
 - Benign vs malignant classification
 
-The report describes the pre-trained model as providing a stronger benchmark than the AutoKeras approach. 
+The report describes the pre-trained model as providing a stronger benchmark than the AutoKeras approach. 
 
 ---
 
@@ -152,7 +152,7 @@ The report describes the pre-trained model as providing a stronger benchmark tha
 | AutoKeras | **89%** |
 | InceptionResNetV2 | **≈88%** |
 
-The AutoKeras model reported approximately **89% accuracy** for the seven-category classification task, while InceptionResNetV2 reported approximately **88%**. 
+The AutoKeras model reported approximately **89% accuracy** for the seven-category classification task, while InceptionResNetV2 reported approximately **88%**. 
 
 ### Benign vs Malignant
 
@@ -292,7 +292,7 @@ Key limitations identified in the project include:
 - Images were resized to only **32 × 32** pixels.
 - The reported evaluation uses a relatively limited experimental setup.
 - The project notes that expanding the dataset with more of the original images could improve prediction performance.
-- Further work could investigate ensemble learning and evolutionary approaches. 
+- Further work could investigate ensemble learning and evolutionary approaches. 
 
 ---
 
