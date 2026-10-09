@@ -139,7 +139,7 @@ The pre-trained architecture was fine-tuned using the project dataset for both:
 - Seven-class lesion classification
 - Benign vs malignant classification
 
-The report describes the pre-trained model as providing a stronger benchmark than the AutoKeras approach. fileciteturn0file0L157-L163
+The report describes the pre-trained model as providing a stronger benchmark than the AutoKeras approach. 
 
 ---
 
@@ -152,7 +152,7 @@ The report describes the pre-trained model as providing a stronger benchmark tha
 | AutoKeras | **89%** |
 | InceptionResNetV2 | **≈88%** |
 
-The AutoKeras model reported approximately **89% accuracy** for the seven-category classification task, while InceptionResNetV2 reported approximately **88%**. fileciteturn0file0L197-L204 fileciteturn0file0L215-L224
+The AutoKeras model reported approximately **89% accuracy** for the seven-category classification task, while InceptionResNetV2 reported approximately **88%**. 
 
 ### Benign vs Malignant
 
@@ -161,7 +161,7 @@ The AutoKeras model reported approximately **89% accuracy** for the seven-catego
 | AutoKeras | **76%** |
 | InceptionResNetV2 | **≈77.98%** |
 
-For binary benign/malignant classification, InceptionResNetV2 achieved approximately **77.98%**, compared with **76%** for the AutoKeras model. fileciteturn0file0L205-L209 fileciteturn0file0L213-L216
+For binary benign/malignant classification, InceptionResNetV2 achieved approximately **77.98%**, compared with **76%** for the AutoKeras model. 
 
 ### Overall Comparison
 
@@ -178,7 +178,7 @@ AutoKeras          ███████████████     76%
 InceptionResNetV2  ████████████████    ≈78%
 ```
 
-The report ultimately preferred **InceptionResNetV2** because of its stronger binary-classification result and comparatively lower validation loss. fileciteturn0file0L225-L235
+The report ultimately preferred **InceptionResNetV2** because of its stronger binary-classification result and comparatively lower validation loss. 
 
 ---
 
@@ -192,7 +192,7 @@ The project evaluated model behaviour using:
 - Validation loss
 - Confusion matrix
 
-The AutoKeras experiment includes a confusion matrix for the seven-class classification task, while training/validation curves were used to examine model learning behaviour. fileciteturn0file0L197-L209
+The AutoKeras experiment includes a confusion matrix for the seven-class classification task, while training/validation curves were used to examine model learning behaviour. 
 
 ---
 
@@ -292,7 +292,7 @@ Key limitations identified in the project include:
 - Images were resized to only **32 × 32** pixels.
 - The reported evaluation uses a relatively limited experimental setup.
 - The project notes that expanding the dataset with more of the original images could improve prediction performance.
-- Further work could investigate ensemble learning and evolutionary approaches. fileciteturn0file0L225-L235 fileciteturn0file0L254-L259
+- Further work could investigate ensemble learning and evolutionary approaches. 
 
 ---
 
